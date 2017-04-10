@@ -1,0 +1,1155 @@
+body{
+	margin: 0;
+   
+
+	
+}
+
+#main1{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 160px;
+	background-color: #452446;
+	text-align: center;	
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+
+}
+nav a:first-child img{
+	width: 130px;
+	height: 95px;
+	margin-top: 20px;
+}
+#slide-toggle{
+	position: absolute;
+	font-size: 40px;
+	color: white;
+	text-decoration: none;
+	right: 30px;
+	top: 50px;
+}
+#main2{
+	background-color: #452446;
+	    display: inline-block;
+	    width: 100%;
+	    text-align: center;
+	    padding-bottom: 110px;
+}
+
+#ind{
+     display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+#m2h1{
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+   text-align :center;
+    max-width: 800px;
+    font-size: 65px;
+    margin: 0 auto;
+    color: white;
+    
+}
+#m2h4{
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.2em;
+	font-size: 22px;
+	text-transform: uppercase;
+	max-width: 970px;
+	margin: 50px auto 50px auto;
+	line-height: 1.8;
+	text-align: center;
+	
+	font-family: 700;
+	color: white;
+
+}
+#m2h5{
+	font-family: 'Raleway', sans-serif;
+	font-family: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	text-align: center;
+	
+	color: white;
+}
+#button{
+	color: white;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	padding: 22px 40px;
+	border: 2px solid white;
+	background: transparent;
+	text-transform: uppercase;
+	font-size: 20px;
+
+}
+#dis{
+	position: relative;
+	width: 100%;
+	background-color: #fff;
+	top: 0;
+}
+#dish2{
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: auto;
+	padding: 50px 0;
+	line-height: 1.55;
+	max-width: 970px;
+
+}
+.city-card{
+	position: relative;
+	width: 50%;
+	height: 450px;
+	margin: 0;
+
+	
+}
+.city-card.left{
+	float: left;
+	left: 0;
+	background-color: #ccc;
+}
+.city-card.right{
+	float: right;
+	right: 0;
+	background-color:#333; 
+}
+.city-card a:link{
+	color: white;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.3;
+	letter-spacing: 0.2em;
+}
+.city-card img{
+	width: 121px;
+	height: 6px;
+}
+#new-york{
+	background-image:url(asset/newyork2.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#nyh1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+#new-york-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgba(57,30,57,0.4);
+
+}
+#los-angeles{
+    background-image:url(asset/triplagent_LosAngeles.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#los-angeles-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+#lah1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+
+}
+#london{
+    background-image:url(asset/london.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#london-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+#lh1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+
+}
+#barcelona{
+    background-image:url(asset/barcelona.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#barcelona-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+#bh1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+
+}
+#istanbul{
+    background-image:url(asset/istanbul.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#istanbul-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+#ih1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+
+}
+#paris{
+    background-image:url(asset/paris.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#paris-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+#ph1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+
+}
+#berlin{
+    background-image:url(asset/berlin.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#berlin-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+#bh1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+
+}
+#rome{
+    background-image:url(asset/rome.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#rome-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+#rh1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+
+}
+#san-francisco{
+    background-image:url(asset/sf.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#san-francisco-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+#sfh1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+
+}
+#sydney{
+    background-image:url(asset/sydney.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#sydney-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+#syh1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+
+}
+#tokyo{
+    background-image:url(asset/tokyo.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#tokyo-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+#tyh1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+
+}
+#stockholm{
+    background-image:url(asset/stockholm2.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#stockholm-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+#sh1{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+
+}
+#fmain{
+	width: 100%;
+}
+.fcart{
+	position: relative;
+	width: 50%;
+	height: 420px;
+	margin-top: 50px;
+    margin-bottom: 20px;
+}
+.fcart.left{
+	float: left;
+	left: 0;
+}
+.fcart.right{
+	float: right;
+	right: 0;
+}
+ul{
+	list-style: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 1.55;
+	margin-bottom: 20px;
+    margin-left: 15%;
+}
+li{
+	margin-bottom: 1.25em;
+	max-width: 430px;
+}
+#th4{
+    font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 1.55;
+	font-weight: lighter;
+}
+#th3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 1.55;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: medium;
+	margin-bottom: 45px;
+}
+#rh3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 1.55;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: medium;
+	margin-left: 21%;
+	margin-bottom: 45px;
+}
+.copyright{
+	float: left;
+	position: relative;
+	width: 100%;
+}
+#inner{
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 1.55;
+    font-weight: medium;
+    font-weight: 100;
+    margin-left: 11%;
+}
+/* la page css start */
+#main1-1{
+	
+	width: 100%;
+	height: 560.1px;
+	background-image:url(asset/triplagent_LosAngeles2.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity:0.8 ;
+	text-align: center;
+}
+div a:first-child img{
+	width: 130px;
+	height: 95px;
+	margin-top: 25px;
+
+}
+#slide-toggle-la{
+	position: absolute;
+	font-size: 40px;
+	color: white;
+	text-decoration: none;
+	right: 30px;
+	top: 50px;
+}
+#mainh1-1{
+	line-height: 1.5;
+	font-size: 65px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.1em;
+	font-weight: 399.5;
+	margin-top: 70px;
+}
+#la-l{
+	margin-top: 8px;
+}
+#mainh5-1{
+line-height: 1.5;
+	font-size: 17px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.2em;
+	font-weight: 400.5;
+	margin-top: 57px;
+}
+/* la page css end */
+#add{
+	
+	width: 100%;
+	height: 474px;
+	background-image: url(asset/getapp2.jpg);
+	background-size: cover;
+	background-position:  center center;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+	
+}
+#btn-h1{
+	font-size: 30px;
+	font-family: 'Raleway',sans-serif;
+	text-transform: uppercase;
+	line-height: 1.8;
+	letter-spacing: 0.2em;
+	padding-top: 100px;
+	text-align: center;
+	color: white;
+}
+#btn-p{
+	font-size: 21px;
+	font-family: 'Raleway',sans-serif;
+	line-height: 1.55;
+	text-align:center;
+	color: white;
+
+}
+#btn1{
+	background:transparent;
+	border: 2px solid white;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	margin: 50px 30% ;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	padding: 22px 40px;
+
+}
+#div-p{
+	
+	line-height: 1.7;
+	text-align: center;
+	font-family: 'Raleway',sans-serif;
+	font-size: 27px;
+	letter-spacing: em;
+	margin-left: 190px;
+	margin-right: 190px;
+}
+#div-h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Raleway',sans-serif;
+	font-size: 32px;
+	margin-top: 120px;
+	margin-bottom: 95px;
+}
+
+/*new york CSS*/
+#main1-2{
+	
+	width: 100%;
+	height: 560.1px;
+	background-image:url(asset/newyork2.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity:0.8 ;
+	text-align: center;
+}
+#main1-3{
+	
+	width: 100%;
+	height: 560.1px;
+	background-image:url(asset/london.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity:0.8 ;
+	text-align: center;
+}
+#main1-4{
+	
+	width: 100%;
+	height: 560.1px;
+	background-image:url(asset/barcelona.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity:0.8 ;
+	text-align: center;
+}
+#main1-5{
+	
+	width: 100%;
+	height: 560.1px;
+	background-image:url(asset/istanbul.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity:0.8 ;
+	text-align: center;
+}
+#main1-6{
+	
+	width: 100%;
+	height: 560.1px;
+	background-image:url(asset/paris.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity:0.8 ;
+	text-align: center;
+}
+#main1-7{
+	
+	width: 100%;
+	height: 560.1px;
+	background-image:url(asset/berlin.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity:0.8 ;
+	text-align: center;
+}
+#main1-8{
+	
+	width: 100%;
+	height: 560.1px;
+	background-image:url(asset/rome.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity:0.8 ;
+	text-align: center;
+}
+#main1-9{
+	
+	width: 100%;
+	height: 560.1px;
+	background-image:url(asset/sf.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity:0.8 ;
+	text-align: center;
+}
+#main1-10{
+	
+	width: 100%;
+	height: 560.1px;
+	background-image:url(asset/sydney.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity:0.8 ;
+	text-align: center;
+}
+#main1-11{
+	
+	width: 100%;
+	height: 560.1px;
+	background-image:url(asset/tokyo.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity:0.8 ;
+	text-align: center;
+}
+#main1-12{
+	
+	width: 100%;
+	height: 560.1px;
+	background-image:url(asset/stockholm2.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity:0.8 ;
+	text-align: center;
+}
+
+/*  about page  */
+#main1-about{
+	
+	width: 100%;
+	height: 1200px;
+	background-image:url(asset/Fotolia_66082210_Subscription_Monthly_M.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity ;
+	text-align: center;
+}
+#mainh1-about{
+	line-height: 1.5;
+	font-size: 65px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.1em;
+	font-weight: 399.5;
+	margin-top: 70px;
+	text-align: center;
+	margin-right:130px; 
+	margin-left:130px;
+}
+#mainh5-about{
+line-height: 1.5;
+	font-size: 17px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.2em;
+	font-weight: 400.5;
+	margin-top: 57px;
+}
+#about-p{
+	line-height: 1.8;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 115px;
+	margin-left: 115px;
+}
+/*  become an agent  */
+#main1-agent{
+	
+	width: 100%;
+	height: 1100px;
+	background-image:url(asset/Fotolia_63247626_Subscription_Monthly_M.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity ;
+	text-align: center;
+}
+#mainh1-agent{
+	line-height: 1.5;
+	font-size: 65px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.1em;
+	font-weight: 399.5;
+	margin-top: 70px;
+}
+#mainh5-agent{
+line-height: 1.5;
+	font-size: 17px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.2em;
+	font-weight: 400.5;
+	margin-top: 57px;
+}
+#about-p1{
+	line-height: 1.8;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 125px;
+	margin-left: 125px;
+}
+#flab{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	color: white;
+	line-height: 1;
+	font-weight: 500;
+	margin-top: 600px;
+
+}
+#flab-i{
+	
+	border-color: #ffffff;
+	background: transparent;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	width: 400px;
+}
+#i-submit{
+    border: 2px solid white;
+    padding: 12px 10px 7px 10px;
+    line-height: 1.3;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.2em;
+    background: transparent;
+    color: white;
+    margin-top: 50px;
+    
+}
+#div-f1{
+	margin-top: 100px;
+}
+#div-f2{
+	margin-top: 30px;
+}
+/*  join our team    */
+#main1-team{
+	
+	width: 100%;
+	height: px;
+	background-image:url(asset/newyork125369.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity ;
+	text-align: center;
+}
+#mainh1-team{
+	line-height: 1.5;
+	font-size: 65px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.1em;
+	font-weight: 399.5;
+	margin-top: 70px;
+}
+/*  partnership      */
+#main1-partner{
+	
+	width: 100%;
+	height: px;
+	background-image:url(asset/bgreen.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity ;
+	text-align: center;
+}
+#mainh1-partner{
+	line-height: 1.5;
+	font-size: 65px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.1em;
+	font-weight: 399.5;
+	margin-top: 70px;
+}
+/*  articles         */
+#main1-article{
+	    
+	background:url(asset/Fotolia_47102785_Subscription_Monthly_M.jpg); 
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	
+
+}
+#mainh1-article{
+	line-height: 1.5;
+	font-size: 65px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.1em;
+	font-weight: 399.5;
+	margin-top: 70px;
+	text-align: center;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: -20px;
+
+}
+#Content{
+    	background-color: rgba(84, 74, 53, 0.5);
+        width:100%;
+        height:100%;
+}
+#time{
+	line-height: 1;
+	font-size: 15px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.city-art{
+	position: relative;
+	width: 50%;
+	height: 450px;
+	margin: 0;
+
+	
+}
+.city-art.left{
+	float: left;
+	left: 0;
+	background-color: #ccc;
+}
+.city-art.right{
+	float: right;
+	right: 0;
+	background-color:#333; 
+}
+.city-art a:link{
+	color: white;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 1.3;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+#art-tokyo{
+	background-image:url(asset/tumblr_mql7kaSVa81szmikvo1_1280.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#art-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.1) ;
+	text-transform: uppercase;
+}
+#art-wine{
+	background-image:url(asset/Fotolia_59691970_Subscription_Monthly_M.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#art-content2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.1) ;
+	text-transform: uppercase;
+}
+#art-wine2{
+	background-image:url(asset/local.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}#art-wine3{
+	background-image:url(asset/camden.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}#art-wine4{
+	background-image:url(asset/Fotolia_41957741_Subscription_Monthly_M.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}#art-wine5{
+	background-image:url(asset/tumblr_myp94uOjbG1st5lhmo1_1280.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}#art-wine6{
+	background-image:url(asset/5196786156_c3bc9f40c8_b.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}#art-wine7{
+	background-image:url(asset/5911923600_35d2810c90_b.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+#slide-to{
+	font-size: 50px;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1.9em;
+}
+#socialm{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+/*  7-things-you-never-expected-to-love-about-los-angeles */
+#main1-1212{
+	
+	width: 100%;
+	height: px;
+	background-image:url(asset/Fotolia_47102785_Subscription_Monthly_M.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity ;
+	text-align: center;
+}
+#mainh1-1212{
+	line-height: 1.5;
+	font-size: 65px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.1em;
+	font-weight: 399.5;
+	margin-top: 70px;
+}
+/*  5-gems-in-tokyo  */
+#main1-1213{
+	
+	width: 100%;
+	height: px;
+	background-image:url(asset/tumblr_mql7kaSVa81szmikvo1_1280.jpg); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity ;
+	text-align: center;
+}
+#mainh1-1213{
+	line-height: 1.5;
+	font-size: 65px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.1em;
+	font-weight: 399.5;
+	margin-top: 70px;
+}
+/*  let-new-york-city-wine-and-dine-you-in-style*/
+/*  5-tips-to-explore-a-city-like-a-local*/
+/*  alternative-culture-in-camden-town*/
+/*  unusual-italy-5-quirkiest-sites*/
+/*  5-tips-on-traveling-alone*/
+/*  culture-beat*/
+/*  enjoying-bremen-in-5-easy-steps*/
