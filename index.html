@@ -5,18 +5,24 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+	
 	
 </head>
 <body>
-<div id="main1">
+<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display: none;" id="mysidebar">
+<button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+</div>
+<header>
+
+
+<div>
 	<nav>
 		<a href="index.html"><img src="asset/logo22.png"></a>
 		<a href=""><i class="ion-navicon-round" id="slide-toggle"></i></a>
 	</nav>
-	</div>
-<div id="main2">
-		<h1 id="m2h1" >GURATED CITY GUIDES FOR TRAVELERS, NOT TOURISTS.</h1>
-	<img src="asset/index.png" id="ind">
+         <h1 id="m2h1" >GURATED CITY GUIDES FOR TRAVELERS, NOT TOURISTS.</h1>
+	     <img src="asset/index.png" id="ind">
 		<h4 id="m2h4">Who's the ideal person to show you round a new city?
 		<br>
             Someone local who shares your interests, right? Right.
@@ -27,6 +33,7 @@
 			<a href="" id="button">AVAILABLE ON THE APP STORE</a>
 	
 </div>
+</header>
 <div id="dis">
 	<h2 id="dish2">Discover our City Guides</h2>
 	      <div class="city-card left" id="new-york">
@@ -152,19 +159,19 @@
 			<h3 id="rh3">Recent Posts</h3>
 			<ul>
 				<li>
-					    7 Things You Never Expected To Love About Los Angeles
+					   <a href="7-things-you-never-expected-to-love-about-los-angeles.html"> 7 Things You Never Expected To Love About Los Angeles </a>
 				</li>
 				<li>
-				         5 gems in Tokyo 
+				        <a href="5-gems-in-tokyo.html"> 5 gems in Tokyo </a> 
 				</li>
 				<li>
-				         Wine and Dine in New York in Style 
+				        <a href="let-new-york-city-wine-and-dine-you-in-style.html"> Wine and Dine in New York in Style </a>
 				</li>
 				<li>
-				         Top 5 Tips To Explore A City Like A Local 
+				        <a href="5-tips-to-explore-a-city-like-a-local.html"> Top 5 Tips To Explore A City Like A Local </a>
 				</li>
 				<li>
-				         Alternative Culture in Camden Town 
+				        <a href="culture-beat.html"> Alternative Culture in Camden Town </a>
 				</li>
 			</ul>
 		</div>
@@ -181,7 +188,9 @@
 	    </div>
 	</div>
 </footer>
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="function.js"></script>
 </body>
+
+
 </html>
